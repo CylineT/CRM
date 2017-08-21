@@ -21,6 +21,7 @@ public class HandlerImp implements Handler {
 	}
 	
 	@Override
+	//核心方法
 	public String tochain() {
 		if(interceptors.size()!=0) {
 			Interceptor currentInterceptor = interceptors.remove(0);
